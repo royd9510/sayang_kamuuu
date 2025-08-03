@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>for you</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom right, pink, lightblue);
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #ff4081;
+      font-size: 50px;
+      animation: glow 2s infinite alternate;
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #fff, 0 0 20px #ff69b4; }
+      to { text-shadow: 0 0 20px #fff, 0 0 40px #ff1493; }
+    }
+    .heart {
+      font-size: 100px;
+      animation: pulse 1s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+    .btn {
+      background-color: #ff4081;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      margin-top: 20px;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background-color: #e91e63;
+    }
+    .msg {
+      display: none;
+      margin-top: 20px;
+      font-size: 24px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>pagiii flii</h1>
+  <div class="heart">🩷</div
+  <p>for you</p>
+  <div class="heart">🌷</div>
+  
+  <p>cobaa Klik</p>
+  
+  
+
+  <button class="btn" onclick="showMsg()">Klik ini 💌</button>
+  <p class="msg" id="loveMsg">aku sayang kamuu,sayangg bangett🤍</p>
+  
+
+  <script>
+    function showMsg() {
+      document.getElementById("loveMsg").style.display = "block";
+    }
+  </script>
+  <script>
+    alert('💐')
+  </script>
+
+</body>
+</html>
